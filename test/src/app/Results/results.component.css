@@ -1,0 +1,22 @@
+button {
+  color: #fff;
+  background: #1976d2;
+  border: 0px;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 5px;
+}
+table {
+  margin: 10px 0;
+  padding: .3em 1em;
+}
+td {
+  border-bottom: 1px solid gray;
+  padding: .3em 1em;
+}
+thead {
+  background: gray;
+  color: white;
+  font-size: 14px;
+
+}
