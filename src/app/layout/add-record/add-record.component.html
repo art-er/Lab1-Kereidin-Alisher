@@ -1,0 +1,16 @@
+<form [formGroup]="record">
+  <div class="form-group">
+    <label for="joggingDate">Jogging date:</label>
+    <input type="date" class="form-control" name="joggingDate" id="joggingDate" formControlName="joggingDate">
+  </div>
+  <div class="form-group">
+    <label for="distance">Distance (m)</label>
+    <input type="number" class="form-control" name="distance" id="distance" value="0" formControlName="distance">
+  </div>
+  <div class="form-group">
+    <label for="time">Time (s)</label>
+    <input type="number" class="form-control" name="time" id="time" value="0" formControlName="time">
+  </div>
+  <button (click)='SaveButtonClick()' type="submit" class="btn btn-primary custom-btn">Save</button>
+
+</form>
